@@ -14,13 +14,14 @@ try: # se si è sotto linux scapy (per l'attacco tcp-udp) funziona
 except: # altrimenti, se fallisce l'importazione
 	print ("TCP/UDP FLOOD ARE NOT SUPPORTED UNDER THIS SYSTEM. YOU MUST USE HTTP FLOOD.") # printa questo
 
+	
 
 print('''
-     DDDDDDDD      AAAAAAA      RRRRRRRR     KK    KK    000000000    VV        VV     HH     HH
-     DD     DD    AA     AA     RR    RR     KK  KK      00     00     VV      VV      HH     HH
-     DD      DD   AAAAAAAAA     RRRRRRRR     KKKK        00     00      VV    VV       HHHHHHHHH
-     DD     DD    AA     AA     RR  RR       KK  KK      00     00       VV  VV        HH     HH
-     DDDDDDDD     AA     AA     RR    RR     KK    KK    000000000        VVVV         HH     HH
+   DDDDDDDD     AAAAAAA    RRRRRRRR    KK    KK   000000000   VV        VV   HH     HH
+   DD     DD   AA     AA   RR    RR    KK  KK     00     00    VV      VV    HH     HH
+   DD      DD  AAAAAAAAA   RRRRRRRR    KKKK       00     00     VV    VV     HHHHHHHHH
+   DD     DD   AA     AA   RR  RR      KK  KK     00     00      VV  VV      HH     HH
+   DDDDDDDD    AA     AA   RR    RR    KK    KK   000000000       VVVV       HH     HH
        
        
        
