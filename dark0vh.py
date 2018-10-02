@@ -563,7 +563,7 @@ def choiceproxysocks():
 def choicedownproxy():
 	choice4 = input("Do you want to download a new list of proxy? Answer 'y' to do it: ")
 	if choice4 == "y":
-		urlproxy = "https://www.sslproxies.org/"
+		urlproxy = "https://free-proxy-list.net/"
 		proxyget(urlproxy)
 	else:
 		proxylist()
@@ -612,16 +612,16 @@ def proxylist():
 def numthreads():
 	global threads
 	try:
-		threads = int(input("Insert number of threads (1000): "))
+		threads = int(input("Insert number of threads (800): "))
 	except ValueError:
-		threads = 1000
-		print ("1000 threads selected.\n")
+		threads = 800
+		print ("800 threads selected.\n")
 	multiplication()
 
 def multiplication():
 	global multiple
 	try:
-		multiple = int(input("Insert a number of multiplication for the attack [(1-5=normal)(100=powerful)(1000 or more=bomb)]: "))
+		multiple = int(input("Insert a number of multiplication for the attack [(1-5=normal)(50=powerful)(100 or more=bomb)]: "))
 	except ValueError:
 		print("You mistyped, try again.\n")
 		multiplication()
