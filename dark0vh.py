@@ -612,10 +612,10 @@ def proxylist():
 def numthreads():
 	global threads
 	try:
-		threads = int(input("Insert number of threads (800): "))
+		threads = int(input("Insert number of threads (1000): "))
 	except ValueError:
-		threads = 800
-		print ("800 threads selected.\n")
+		threads = 1000
+		print ("1000 threads selected.\n")
 	multiplication()
 
 def multiplication():
