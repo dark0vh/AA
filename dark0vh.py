@@ -14,6 +14,7 @@ try: # se si è sotto linux scapy (per l'attacco tcp-udp) funziona
 except: # altrimenti, se fallisce l'importazione
 	print ("TCP/UDP FLOOD ARE NOT SUPPORTED UNDER THIS SYSTEM. YOU MUST USE HTTP FLOOD.") # printa questo
 
+
 	
 
 print('''
@@ -23,11 +24,13 @@ print('''
    DD     DD   AA     AA   RR  RR      KK  KK     00     00      VV  VV      HH     HH
    DDDDDDDD    AA     AA   RR    RR    KK    KK   000000000       VVVV       HH     HH
        
-       
-       
+             
                                    ANONYMOUS      ALBANIA
+				   
 				     Create by Dark0vh
-				       #FuckSerbia    
+				     
+				       #FuckSerbia 
+				       
   We are Anonymous Albania, We Do Not Forgive, We Do Not Forget, Expect Us	
 	
 	''') # la grafica ci sta
@@ -563,7 +566,7 @@ def choiceproxysocks():
 def choicedownproxy():
 	choice4 = input("Do you want to download a new list of proxy? Answer 'y' to do it: ")
 	if choice4 == "y":
-		urlproxy = "https://free-proxy-list.net/"
+		urlproxy = "http://free-proxy-list.net/"
 		proxyget(urlproxy)
 	else:
 		proxylist()
@@ -612,10 +615,10 @@ def proxylist():
 def numthreads():
 	global threads
 	try:
-		threads = int(input("Insert number of threads (1000): "))
+		threads = int(input("Insert number of threads (800): "))
 	except ValueError:
-		threads = 1000
-		print ("1000 threads selected.\n")
+		threads = 800
+		print ("800 threads selected.\n")
 	multiplication()
 
 def multiplication():
