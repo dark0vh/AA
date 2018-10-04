@@ -563,7 +563,7 @@ def choiceproxysocks():
 def choicedownproxy():
 	choice4 = input("Do you want to download a new list of proxy? Answer 'y' to do it: ")
 	if choice4 == "y":
-		urlproxy = "http://www.google-proxy.net/"
+		urlproxy = "https://free-proxy-list.net/"
 		proxyget(urlproxy)
 	else:
 		proxylist()
