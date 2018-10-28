@@ -17,12 +17,12 @@ except: # altrimenti, se fallisce l'importazione
 
 	
 
-print('''
-print colored(['bold red '], '      DDDDDDDD     AAAAAAA    RRRRRRRR    KK    KK   000000000   VV        VV   HH     HH    ', "\n");
-print colored(['bold red '], '      DD     DD   AA     AA   RR    RR    KK  KK     00     00    VV      VV    HH     HH    ', "\n");
-print colored(['bold red '], '      DD      DD  AAAAAAAAA   RRRRRRRR    KKKK       00     00     VV    VV     HHHHHHHHH    ', "\n");
+system('clear');
+print colored(['bold red '], '      DDDDDDDD     AAAAAAA    RRRRRRRR    KK    KK   000000000   VV        VV   HH     HH  ', "\n");
+print colored(['bold red '], '      DD     DD   AA     AA   RR    RR    KK  KK     00     00    VV      VV    HH     HH  ', "\n");
+print colored(['bold red '], '      DD      DD  AAAAAAAAA   RRRRRRRR    KKKK       00     00     VV    VV     HHHHHHHHH  ', "\n");
 print colored(['bold green '],  '   DD     DD   AA     AA   RR  RR      KK  KK     00     00      VV  VV      HH     HH    ', "\n");
-print colored(['bold cyan '], '     DDDDDDDD    AA     AA   RR    RR    KK    KK   000000000       VVVV       HH     HH    ', "\n");
+print colored(['bold cyan '], '     DDDDDDDD    AA     AA   RR    RR    KK    KK   000000000       VVVV       HH     HH  ', "\n");
        
              
                                    ANONYMOUS      ALBANIA
