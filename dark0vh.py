@@ -18,11 +18,11 @@ except: # altrimenti, se fallisce l'importazione
 	
 
 print('''
-   DDDDDDDD     AAAAAAA    RRRRRRRR    KK    KK   000000000   VV        VV   HH     HH
-   DD     DD   AA     AA   RR    RR    KK  KK     00     00    VV      VV    HH     HH
-   DD      DD  AAAAAAAAA   RRRRRRRR    KKKK       00     00     VV    VV     HHHHHHHHH
-   DD     DD   AA     AA   RR  RR      KK  KK     00     00      VV  VV      HH     HH
-   DDDDDDDD    AA     AA   RR    RR    KK    KK   000000000       VVVV       HH     HH
+print colored(['bold red '], '      DDDDDDDD     AAAAAAA    RRRRRRRR    KK    KK   000000000   VV        VV   HH     HH
+print colored(['bold red '], '      DD     DD   AA     AA   RR    RR    KK  KK     00     00    VV      VV    HH     HH
+print colored(['bold red '], '      DD      DD  AAAAAAAAA   RRRRRRRR    KKKK       00     00     VV    VV     HHHHHHHHH
+print colored(['bold green '],  '   DD     DD   AA     AA   RR  RR      KK  KK     00     00      VV  VV      HH     HH
+print colored(['bold cyan '], '     DDDDDDDD    AA     AA   RR    RR    KK    KK   000000000       VVVV       HH     HH
        
              
                                    ANONYMOUS      ALBANIA
