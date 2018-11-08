@@ -11,4 +11,4 @@ pip3 install pysocks bs4 kamene scapy-python3
 
 If you are under winzoz, type:
 
-py -m pip install pysocks bs4
+py -m pip install pysocks bs4 kamene
