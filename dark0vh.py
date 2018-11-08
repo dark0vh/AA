@@ -6,16 +6,18 @@ import re
 import urllib.request
 import os
 import sys
+
 from bs4 import BeautifulSoup
 
+import logging
+logging.getLogger("kamene.runtime").setLevel(logging.ERROR) # C0d3d by dark0vh
 
-try: # se si è sotto linux scapy (per l'attacco tcp-udp) funziona
-	from scapy.all import * # importa scapy
-except: # altrimenti, se fallisce l'importazione
-	print ("TCP/UDP FLOOD ARE NOT SUPPORTED UNDER THIS SYSTEM. YOU MUST USE HTTP FLOOD.") # printa questo
-
-
-	
+if sys.platform.startswith("linux"): # C0d3d by dark0vh
+	from kamene.all import * # C0d3d by dark0vh
+elif sys.platform.startswith("freebsd"): # C0d3d by dark0vh
+	from kamene.all import * # C0d3d by dark0vh
+else: # C0d3d by dark0vh
+	print ("TCP/UDP/HTTP FLOOD.") # printa questo
 
 print('''
    DDDDDDDD     AAAAAAA    RRRRRRRR    KK    KK   000000000   VV        VV   HH     HH
@@ -26,7 +28,7 @@ print('''
              
                                    ANONYMOUS      ALBANIA
 				   
-				     Create by Dark0vh
+				     C0d3d by Dark0vh
 				     
 				       #FuckSerbia 
 				       
