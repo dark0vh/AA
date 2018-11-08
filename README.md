@@ -7,7 +7,7 @@ Install dependencies To use it you have to use python3 and you also need 3 extra
 
 To use it you have to use python3 and you also need 3 extra modules. To install if you are running linux or mac, type:
 
-pip3 install pysocks bs4 scapy-python3
+pip3 install pysocks bs4 kamene scapy-python3
 
 If you are under winzoz, type:
 
