@@ -17,7 +17,8 @@ if sys.platform.startswith("linux"): # C0d3d by dark0vh
 elif sys.platform.startswith("freebsd"): # C0d3d by dark0vh
 	from kamene.all import * # C0d3d by dark0vh
 else: # C0d3d by dark0vh
-	print ("TCP/UDP/HTTP FLOOD.") # printa questo
+	
+	print ( " TCP / UDP / HTTP FLOOD.") # printa questo
 
 print('''
    DDDDDDDD     AAAAAAA    RRRRRRRR    KK    KK   000000000   VV        VV   HH     HH
